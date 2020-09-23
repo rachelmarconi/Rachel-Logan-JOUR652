@@ -1,2 +1,45 @@
 /*style sheet for basic resume exercise*/
 
+BODY {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 1em;
+	color: #444;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 3em;
+	color: #33485e;
+	text-transform: uppercase;
+	text-align: center;
+}
+.title{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #33485e;
+}
+
+h2{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	background-color: #33485e;
+	color: #000;
+	/*weight is already set by BODY*/
+}
+
+h3{
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+h4{
+	font-size:1.5em;
+	/*weight is already set by BODY*/
+}
+
+h5{
+	font-style: italic;
+	/*weight, size already set by BODY*/
+}
+
+/*size for list items already set by BODY*/
