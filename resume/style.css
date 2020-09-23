@@ -1,5 +1,6 @@
 /*style sheet for basic resume exercise*/
 
+/*setting standard font styles*/
 BODY {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 1em;
@@ -7,38 +8,50 @@ BODY {
 	font-weight: 400;
 }
 
+/*my name at top*/
 h1{
 	font-size: 3em;
 	color: #33485e;
 	text-transform: uppercase;
 	text-align: center;
 }
+
+/*my industry*/
+/*...I know I could've used just b looking back,
+but I didn't remember if b was used elsewhere
+and wanted to be discriminatory that it was just
+for this instance of b*/
 .title{
 	text-transform: uppercase;
 	font-size: 1.5em;
 	color: #33485e;
 }
 
+/*section headers, like EDUCATION*/
 h2{
 	font-size: 1.5em;
 	text-transform: uppercase;
 	background-color: #33485e;
-	color: #000;
+	color: #fff;
 	/*weight is already set by BODY*/
 }
 
+/*job titles at each past workplace*/
 h3{
 	font-weight: 600;
 	font-size: 1.5em;
 }
 
+/*job workplaces*/
 h4{
 	font-size:1.5em;
-	/*weight is already set by BODY*/
+	font-weight: 400;
 }
 
+/*dates for each past workplace*/
 h5{
 	font-style: italic;
+	font-weight: 400;
 	/*weight, size already set by BODY*/
 }
 
