@@ -8,6 +8,14 @@ BODY {
 	font-weight: 400;
 }
 
+/*this is for the whole thing*/
+#container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+	padding-bottom: 50px;
+}
+
 /*my name at top*/
 #name{
 	font-size: 3em;
@@ -16,18 +24,36 @@ BODY {
 	text-align: center;
 	border-bottom: 1px solid #33485e;
 	width: 60%;
-	margin: 0 auto;
+	margin: 0px auto;
+}
+
+.menu{
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+}
+
+/*call-out*/
+.menu li{
+	display: inline;
+}
+
+#degrees{
+	margin-top: 5px;
+}
+
+#do{
+	margin-top: 5px;
 }
 
 /*my industry*/
-/*...I know I could've used just b looking back,
-but I didn't remember if b was used elsewhere
-and wanted to be discriminatory that it was just
-for this instance of b*/
-b{
+#title{
 	text-transform: uppercase;
+	font-weight: 600px;
+	text-align: center;
 	font-size: 1.5em;
 	color: #33485e;
+	margin-top: 20px;
 }
 
 /*section headers, like EDUCATION*/
@@ -55,14 +81,22 @@ b{
 
 /*dates for each past workplace*/
 .date{
-	margin: 2px 0px 0px 0px;
+	margin-top: 2px;
 	font-style: italic;
 	font-weight: 400;
 	/*weight, size already set by BODY*/
 }
 
+/*for most paragraphs*/
 .description{
 	margin: 10px 0px;
 }
 
+/*for specifically the mission statement*/
+.top{
+	width: 60%;
+	min-width: 300px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
 /*size for list items already set by BODY*/
