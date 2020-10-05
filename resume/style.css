@@ -48,16 +48,21 @@ b{
 }
 
 /*job workplaces*/
-h4{
-	font-size:1.5em;
+.organization{
+	font-size:1.25em;
 	font-weight: 400;
 }
 
 /*dates for each past workplace*/
-h5{
+.date{
+	margin: 2px 0px 0px 0px;
 	font-style: italic;
 	font-weight: 400;
 	/*weight, size already set by BODY*/
+}
+
+.description{
+	margin: 10px 0px;
 }
 
 /*size for list items already set by BODY*/
