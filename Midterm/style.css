@@ -1,0 +1,68 @@
+#content{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	font-family: Book Antiqua, serif;
+	font-size: 50px;
+	margin-bottom: 5px;
+	color: #1c0634;
+}
+
+#byline{
+	font-family: Book Antiqua, serif;
+	color: #1c0634;
+	font-size:18px;
+	margin-bottom: 35px;
+}
+
+h2{
+	font-family: Book Antiqua, serif;
+	color: #1c0634;
+}
+
+.caption{
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+p,a{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+/*I wanted some inline photos
+and messed around with the formatting for a while
+but it still doesn't feel optimized*/
+.inline-chunk{
+	display: inline-block;
+	margin-right: 20px;
+	float: left;
+}
+
+.inline-chunk img{
+	display: inline-block;
+	width: 400px;
+	margin-left: auto;
+}
+
+.inline-chunk p{
+	width: 400px;
+	margin-bottom: 5px;
+}
+
+#bq{
+	display: inline-block;
+	float: right;
+	width:550px;
+	font-size:22px;
+	font-weight:bold;
+	color: #1c0634;
+}
+
+#banner{
+	width:100%;
+	margin-bottom: 50px;
+}
