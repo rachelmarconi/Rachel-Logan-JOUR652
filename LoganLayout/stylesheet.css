@@ -1,0 +1,44 @@
+#content{
+	margin: 0 auto;
+	width: 900px;
+}
+
+.headline{
+	color: #0c1854;
+	font-family: Helvetica, sans-serif;
+	font-size:28px;
+	font-weight:bold;
+}
+
+#byline{
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+
+p{
+	font-family: Georgia, serif;
+	font-size: 13px;
+}
+
+blockquote{
+	font-size: 40px;
+	font-weight: bold;
+	width: 600px;
+}
+
+.caption{
+	font-size: 12px;
+	margin-top:0px;
+	margin-bottom:28px;
+}
+
+.image{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#banner{
+	width:1300px;
+	margin: 0 auto;
+}
