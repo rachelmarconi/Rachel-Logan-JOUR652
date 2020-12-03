@@ -26,9 +26,14 @@ p{
 	text-transform: uppercase;
 }
 
-.chapter-top{
+.chatter{
 	font-family: Hind, sans-serif;
 	font-size: 2em;
+	font-weight:600;
+}
+
+.chapter-top{
+	
 }
 
 .photo{
